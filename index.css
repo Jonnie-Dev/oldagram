@@ -4,8 +4,6 @@ html, body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-/* border: 3px red solid; */
-
 img {
    width: 100%; 
 }
@@ -68,6 +66,11 @@ img {
 .icon {
     width: 24px;
     margin-right: 16px;
+}
+
+.icon:hover {
+    background: #C6C6C6;
+    border-radius: 50%;
 }
 
 .bold-span {
